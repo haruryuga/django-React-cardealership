@@ -1,0 +1,202 @@
+img{
+  width: 60%;
+  align-self: center;
+}
+
+.card{
+  border: rgb(103, 102, 105) 3px solid;
+  display: flex;  
+  flex-direction: column;
+  margin-left:5%;
+  margin-right:5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.row{
+  display: flex;  
+  flex: 1;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 1%;
+  justify-content: center;
+  padding:20px;
+}
+
+.container{
+  justify-content: center;
+}
+.details{
+  font-size: 20px;
+  color: rgb(97, 64, 128);
+  padding:20px;
+}
+
+.title{
+  font-size: 20px;
+  background-color: rgb(97, 64, 128);
+  color: white;
+  text-align: center;
+  margin:20px;
+  padding:5px;
+}
+
+.homepage_links{
+  color:  rgb(97, 64, 128);
+  padding: 25%;
+  font-size: larger;
+  }
+
+.loginlink{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex:1
+}
+
+.form_panel {
+  padding:2%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  text-align:center;
+  box-shadow: 2px 2px 2px 3px #999;
+  margin: auto;
+  min-width: 350px;
+  width: 80%;
+  margin-top:3%;
+  background-color: black;
+}
+
+.navitems{
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  flex: 1;
+  justify-content: flex-start;
+  justify-self: center;
+}
+
+.nav_item{
+  margin-left:15px;
+  font-size: 20px;
+  color: black;
+  align-self: center;
+}
+
+.username{
+  font: 30px sans-serif;
+  color:black;
+  justify-content: 'flex-end';
+  align-self:flex-end;
+  vertical-align: middle;
+}
+
+.input_panel {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  flex: 1;
+  justify-content:flex-end;
+  align-items: flex-end;
+  vertical-align: middle;
+}
+
+.small_header{
+  font: 30px sans-serif;
+  color:black;
+  margin: .5cm;
+}
+
+.img_icon {
+  align-self: center;
+    width:40px;
+    background-color:#0C9;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    box-shadow: 2px 2px 3px #999;  
+}
+
+.contact-card {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px !important;
+  }
+  
+  .contact-image {
+    width: 80%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+  .contact-board-img {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .contact-details {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+  }
+  
+  .contact-details p {
+    margin: 10px 0;
+    color: #1a73e8; /* Blue color for contact information */
+  }
+  
+  .contact-details strong {
+    color: #333; /* Darker color for labels */
+  }
+
+.contact-board::before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Darker gray line */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 20px;
+}
+
+.contact-board {
+    display: flex;
+    flex-direction: row;
+    position: relative; /* Required for positioning the pseudo-element */
+    padding-top: 20px;
+}
+
+.contact-image-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-image-container::after {
+    content: "";
+    display: block;
+    width: 80%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.2); /* Soft gray line */
+    margin: 10px auto;
+}
